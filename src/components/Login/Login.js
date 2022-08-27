@@ -44,10 +44,7 @@ let loginUser = async (e) => {
   };
 
   return(
-
-    
-
-    <div className="container">
+   <div className="container">
     <div className="brand-logo"></div>
     <div className="brand-title">LOGIN</div>
       <form onSubmit={loginUser}>
