@@ -15,15 +15,11 @@ function Dashboard() {
         <div id="wrapper">
             <center><h1>Welcome {state.userName},</h1></center>
             <div class="navigation">
-  
-	<a className="button" href="/">
-    <img className="imgcls" src={state.image}/>
-  
-  <div className="logout">LOGOUT</div>
-
-	</a>
-  
-</div>
+              <a className="button" href="/">
+                <img className="imgcls" src={state.image}/>
+              <div className="logout">LOGOUT</div>
+              </a>
+            </div>
         <h2>
         <p>First Name : {state.userName}</p>
         <p>Last Name : {state.userName}</p>
@@ -33,7 +29,6 @@ function Dashboard() {
           <img src={state.image} width="200" height="250" />
         </div>
         </h2>
-        
         </div>
         
     )
